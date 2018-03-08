@@ -12,6 +12,8 @@
     <tstamp/>
     <!-- Create the build directory structure used by compile -->
     <mkdir dir="${build}"/>
+    <mkdir dir="${src}"/>
+    <mkdir dir-"${dist}"/>
   </target>
 
   <target name="compile" depends="init"
